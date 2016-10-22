@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<link type="text/css" rel="stylesheet" href="my-first-stylesheet.css" />
+</head>
+<body>
+<header>
+<p>
+<sup>IKwebs</sup>Webs for Kids</p>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li class="selected">About Me</li>
+<li><a href="links.html">Links</a></li>
+<li><a href="links-for-school-projects.html">Links for School Projects</a></li>
+</ul>
+</nav>
+<h1>About Me</h1>
+<p>Here I would like to explain a bit about me. But not personal stuff, obviously! But I will write down what I love and hate after.</p>
+<p>First thing is first; usernames. I don't really know how many usernames I have, but if you ever play online, you MIGHT see a username starting with IK. If you do, take note, it is me.</p>
+<p>Things I love: One thing I really like is books. Some people might say reading is dead boring, but I could spend a whole day reading.C=. My favorite book collections are these: Cronicas de la Torre and Princesas del Reino de la Fantasia, both spanish. Then are the videogames. My favorite videogame is Minecraft, but I also like games like Geometry Dash, Lara Croft and Minion Rush. Of the sports, there is only one I like: Basketball. And of the school subjects, I do have a lot; Maths, literacy, ICT, PE only some days, reading and music. Music is, for me, the most beautiful sound ever (depending on the song). I love so much music and to sing, sometimes my friends say I have a such lovely singing voice that I should go to a talent show. My favorite songs are Promise from Minecraft Parody and Star Trek Main Theme, from the film Star Trek: Into Darkness which is my favorite film.</p>
+<p>Things I hate: So much chatting (I mean, writing) about what I like but what about what I DON'T like? Something I hate is FOOTBALL.>=C Football is DEAD BORING. Like Pokemon Go. I've even heard Pokemon Go is a dangerous videogame, because people get so hooked to it that when they cross the road playing it without paying attention that accidents happen. Then I also hate some PE leasons, because we have to run 400 metres and, soon enough, 800 metres.<=C.</p>
+<p>By the way, if you're wondering why I'm using smiley thingies, is because I like it.C=. They're so cute!</p>
+<p>
+<img id="display-image" onclick="swapImage()" src="images/minecraftme1.png" width="600" />
+</p>
+<p>Click the image to see my other skins. I made them myself, and it's a bit like my real aspect, clothes and all.</p>
+<script>
+function swapImage() {
+var imageDisplayed = document.getElementById('display-image');
+if (imageDisplayed.src.match("images/minecraftme1.png")) {
+    imageDisplayed.src = "images/minecraftme2.png";
+} else if (imageDisplayed.src.match("images/minecraftme2.png")) {
+    imageDisplayed.src = "images/minecraftme3.png";
+} else if (imageDisplayed.src.match("images/minecraftme3.png")) {
+    imageDisplayed.src = "images/minecraftme4.png";
+} else if (imageDisplayed.src.match("images/minecraftme4.png")) {
+    imageDisplayed.src = "images/minecraftme5.png";
+} else if (imageDisplayed.src.match("images/minecraftme5.png")) {
+    imageDisplayed.src = "images/minecraftme6.png";
+} else if (imageDisplayed.src.match("images/minecraftme6.png")) {
+    imageDisplayed.src = "images/minecraftme7.png";
+}
+else {
+    imageDisplayed.src = "images/minecraftme1.png";
+}
+}
+</script>
+</body>
+</html> 
